@@ -1,6 +1,6 @@
 # npmtest-socketio-sticky-session
 
-#### test coverage for  [socketio-sticky-session (v0.4.2)](https://github.com/wzrdtales/socket-io-sticky-session)  [![npm package](https://img.shields.io/npm/v/npmtest-socketio-sticky-session.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-socketio-sticky-session) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-socketio-sticky-session.svg)](https://travis-ci.org/npmtest/node-npmtest-socketio-sticky-session)
+#### basic test coverage for  [socketio-sticky-session (v0.4.2)](https://github.com/wzrdtales/socket-io-sticky-session)  [![npm package](https://img.shields.io/npm/v/npmtest-socketio-sticky-session.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-socketio-sticky-session) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-socketio-sticky-session.svg)](https://travis-ci.org/npmtest/node-npmtest-socketio-sticky-session)
 
 #### Sticky session balancer with layer 4 capabilities, based on a `cluster` module
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-socketio-sticky-session/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-socketio-sticky-session/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-socketio-sticky-session/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-socketio-sticky-session/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-socketio-sticky-session/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-socketio-sticky-session/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-socketio-sticky-session/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-socketio-sticky-session/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-socketio-sticky-session/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-socketio-sticky-session/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-socketio-sticky-session/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-socketio-sticky-session/build/coverage.html/index.html)
 
@@ -88,7 +88,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "version": "0.4.2"
+    "version": "0.4.2",
+    "bin": {}
 }
 ```
 
